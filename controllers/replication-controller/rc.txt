@@ -1,0 +1,2 @@
+It will create a replicas whether that same replica is present or not.
+It does not consider that whether the same replicas is present or not.

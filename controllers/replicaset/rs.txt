@@ -1,0 +1,10 @@
+Creating a ReplicaSet
+
+kubectl run pod1 --image=nginx
+
+kubectl get pods
+
+kubectl create -f rs.yml 
+
+kubectl get pods
+

@@ -1,0 +1,12 @@
+Create a namespace using namespace or ns
+
+kubectl create namespace prod
+
+kubectl get namesapce
+
+kubectl -n prod run prod-pod --image=nginx
+
+kubectl -n prod get pods
+
+kubectl delete namespace prod
+

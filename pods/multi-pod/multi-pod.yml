@@ -1,0 +1,26 @@
+#Creating a multi-pod using yaml file
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod1
+  labels:
+    app: my-pod1
+spec:
+  containers:
+  - image: manoj1709/react-app:latest
+    name: react
+
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod2
+  labels:
+    app: my-pod2
+spec:
+  containers:
+  - image: manoj1709/vue-app:latest
+    name: vue
+

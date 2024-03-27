@@ -1,0 +1,14 @@
+Creating a node using the given kubectls configuration
+
+kubectl get nodes
+
+kubectl describe node minikube
+
+kubectl delete node minikube
+
+Creating a multi node on minikube
+
+minikube start --nodes=2 -p multi-node
+
+
+

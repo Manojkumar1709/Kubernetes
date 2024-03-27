@@ -1,0 +1,17 @@
+Creating a pod using the kubectl commands
+
+kubectl run nginx-pod --image-nginx
+
+kubectl get pods
+
+kubectl describe pod nginx-pod
+
+kubectl logs -f nginx-pod
+
+kubectl exec -it nginx-pod -- /bin/bash
+
+kubectl delete pod nginx-pod
+
+
+
+

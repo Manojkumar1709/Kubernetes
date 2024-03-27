@@ -1,0 +1,8 @@
+A sidecar pattern is used to enhance or extend the existing functionality of the container.
+
+Some examples are
+
+* using a sidecar for monitoring and logging and adding an agent for these purposes
+
+* A sidecar periodically syncs files in a webserver container’s file system from a Git repository.
+

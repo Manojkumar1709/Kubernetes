@@ -1,0 +1,11 @@
+#Creating a pod using yaml file
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod1
+  labels:
+    app: my-pod
+spec:
+  containers:
+  - image: nginx
+    name: nginx-img

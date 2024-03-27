@@ -1,0 +1,8 @@
+#Creating a namespace using YAML file
+apiVersion: v1
+kind: Namespace
+metadata: 
+    name: prod
+    labels: 
+        app: myapp
+        team: production

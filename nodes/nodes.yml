@@ -1,0 +1,8 @@
+#Creating of node using yaml file
+apiVersion: v1
+kind: Node
+metadata: 
+  name: my-node
+  labels:
+    name: my-first-node
+    app: my-app
